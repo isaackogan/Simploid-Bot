@@ -1,0 +1,28 @@
+from typing import Tuple, List
+
+BOT_PREFIX = "!"
+COG_PATH = "./cogs"
+DATA_PATH = "./resources/data.json"
+BOT_ADMINS = [699802828356583435, 164788187296694274]
+
+# Custom Emojis
+CHECK_EMOJI: str = "<:check:655594481789173790>"
+X_EMOJI: str = "<:xmark:655594482070454300>"
+
+# Embed Colour Codes (Styling)
+EMBED_COLOUR_STRD: hex = 0x0082cb  # Old: 0xc2364e
+EMBED_COLOUR_ERROR: hex = 0xf03f32
+EMBED_COLOUR_SUCCESS: hex = 0x3ec966
+EMBED_COLOUR_LOGS: hex = 0x6be2f2
+EMBED_COLOUR_GOLD: hex = 0xd97f02
+EMBED_COLOUR_INVIS: hex = 0x2f3136
+
+# Auto Support Message
+HOME_GUILD_ID: int = 1021109317748916355
+BOT_OWNER_ID: int = 699802828356583435
+
+
+class JoinLeave:
+    MESSAGE_CHANNEL_ID: int = 1021505412119408721
+    JOIN_COLOUR: hex = 0x3bb879
+    LEAVE_COLOUR: hex = 0xd9092f
